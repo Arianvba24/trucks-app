@@ -1,0 +1,15 @@
+{
+    "users": [
+      
+        {
+            "username": "cliente1",
+            "salt": "xyz789",
+            "password_hash": "123456"
+        },
+        {
+            "username": "admin",
+            "salt": "62c338384cc2b7188bcdbaf9d089b88a",
+            "password_hash": "e3ab76074804745df788561765085deaf7fd67b3780f994cdcded822d80ccc3e"
+        }
+    ]
+}
