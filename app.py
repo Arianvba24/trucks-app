@@ -185,6 +185,20 @@ def main():
         hide_index=True,
     )
 
+    st.markdown("""
+            <style>
+            /* Ocultar barra de herramientas de las tablas */
+            [data-testid="stElementToolbar"] {
+                display: none !important;
+            }
+    
+            /* Ocultar menú contextual de descarga */
+            [data-testid="stDataFrame"] button {
+                display: none !important;
+            }
+            </style>
+            """, unsafe_allow_html=True)
+
 
 if __name__ == "__main__":
     main()
