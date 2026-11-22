@@ -14,7 +14,7 @@ from app_functions import (
 def load_data():
     
     return pd.read_excel(
-        r"C:\Users\Cash\Downloads\web_app_camiones\listado_streamlit.xlsx"
+        r"listado_streamlit.xlsx"
     )
 
 
